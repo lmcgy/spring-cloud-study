@@ -1,0 +1,31 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: security-uaa
+          uri: lb://security-uaa
+          predicates:
+            - Path=/api/**
+          filters:
+            - StripPrefix=1
+
+
+        - id: security-order
+            uri: lb://security-order
+            predicates:
+              - Path=/api/**
+            filters:
+              - StripPrefix=1
+
+        enabled: true
+  application:
+    name: gateway
+server:
+  port: 8090
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/

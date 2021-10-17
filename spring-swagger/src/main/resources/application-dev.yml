@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: swagger
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/
+    healthcheck:
+      enabled: true
+server:
+  port: 8082
+
+docket:
+  flag: true
