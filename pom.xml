@@ -34,6 +34,7 @@
         <module>distributed-security-order</module>
         <module>spring-cloud-gateway</module>
         <module>spring-excel-poi</module>
+        <module>spring-boot-security</module>
     </modules>
 
     <properties>
