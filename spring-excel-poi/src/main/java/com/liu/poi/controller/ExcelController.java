@@ -22,7 +22,7 @@ public class ExcelController {
 
         Map<String,Object> map = new LinkedHashMap<>();
         map.put("id",1);
-        map.put("name","刘苗");
+        map.put("name","liu");
         String strDateFormat = "yyyy-MM-dd HH:mm:ss";
         SimpleDateFormat sdf = new SimpleDateFormat(strDateFormat);
         String format = sdf.format(new Date());
