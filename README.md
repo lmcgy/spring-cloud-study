@@ -1,23 +1,3 @@
-<p align="center">
-  <a href="https://github.com/baomidou/mybatis-plus">
-   <img alt="Mybatis-Plus-Logo" src="http://git.oschina.net/uploads/images/2016/0824/211639_4d931e7f_12260.png">
-  </a>
-</p>
-
-<p align="center">
-  为简化开发工作、提高生产率而生
-</p>
-
-<p align="center">
-  <a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.baomidou%22%20AND%20a%3A%22mybatis-plus%22">
-    <img alt="maven" src="https://img.shields.io/maven-central/v/com.baomidou/mybatis-plus.svg?style=flat-square">
-  </a>
-
-  <a href="https://www.apache.org/licenses/LICENSE-2.0">
-    <img alt="code style" src="https://img.shields.io/badge/license-Apache%202-4EB1BA.svg?style=flat-square">
-  </a>
-</p>
-
 # 简介 | Intro
 
 Mybatis 增强工具包 - 只做增强不做改变，简化`CRUD`操作
