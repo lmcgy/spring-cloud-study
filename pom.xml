@@ -35,6 +35,7 @@
         <module>spring-cloud-gateway</module>
         <module>spring-excel-poi</module>
         <module>spring-boot-security</module>
+        <module>common-xxl-job</module>
     </modules>
 
     <properties>
